@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>ToDo List</title>
+</head>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="" class="navbar-brand">My ToDo List</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="content-area row">
+        <div class="col-sm-2 col-xs-2 col-md-2 col-lg-2"></div>
+        <div class="col-sm-8 col-xs-8 col-md-8 col-lg-8">
+            <h2>ToDo List</h2>
+            <div class="row input-area">
+                <div class="col-md-1"></div>
+
+                <div class="form-group col-md-9">
+                    <input type="text" class="form-control" placeholder="what to do... " id="addTask">
+                </div>
+                <div class="col-md-1 btn btn-info" onclick="toDo.handleAdd()">Add</div>
+                <div class="col-md-1"></div>
+            </div>
+            <ul class="list-group" id="taskList">
+            </ul>
+        </div>
+
+        <div class="col-sm-2 col-xs-2 col-md-2 col-lg-2"></div>
+    </div>
+</div>
+
+<body>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="/dist/scripts.js"> </script>
+</body>
+
+</html>
